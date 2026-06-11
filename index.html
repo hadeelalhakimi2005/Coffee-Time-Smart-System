@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Time</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <h1 class="logo">☕ Coffee Time</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h2>Fresh Coffee In The Morning</h2>
+            <p>Enjoy the best coffee experience with modern taste.</p>
+            <button>Order Now</button>
+        </div>
+    </section>
+
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <h2 class="title">Our Menu</h2>
+
+        <div class="products">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=800" alt="coffee">
+                <h3>Latte</h3>
+                <p>$5</p>
+                <button onclick="addToCart()">Add To Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=800" alt="coffee">
+                <h3>Cappuccino</h3>
+                <p>$7</p>
+                <button onclick="addToCart()">Add To Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800" alt="coffee">
+                <h3>Espresso</h3>
+                <p>$4</p>
+                <button onclick="addToCart()">Add To Cart</button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section class="about" id="about">
+        <h2 class="title">About Us</h2>
+
+        <p>
+            Coffee Time is a smart coffee shop system designed to make ordering easier,
+            faster, and more modern.
+        </p>
+    </section>
+
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2 class="title">Contact Us</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Coffee Time | All Rights Reserved</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+              </html>
