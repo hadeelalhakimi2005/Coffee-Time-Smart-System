@@ -1,7 +1,6 @@
 let count = 0;
 
-function addToCart() {
+function addToCart(){
     count++;
-    document.getElementById("count").innerText = count;
-    alert("تم إضافة المشروب إلى السلة بنجاح! ☕");
+    document.getElementById("cart-count").innerText = count;
 }
